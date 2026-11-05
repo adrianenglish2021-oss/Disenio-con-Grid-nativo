@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Grid Layout Completo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="bento-container">
+        <!-- COLUMNA 1 -->
+        <div class="bento-col col-1">
+            <div class="bento-item wide">
+                <!-- Flexbox en línea para alinear perfectamente el texto y la imagen -->
+                <p style="display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.2rem; font-weight: bold;">
+                    Hasta 
+                    <img src="img/bateria.png" alt="21 horas" style="height: 40px; border-radius: 6px;"> 
+                    de batería
+                </p>
+            </div>
+            <div class="bento-item"><p>Almacenamiento<br>hasta <strong>2x</strong><br>más rápido</p></div>
+            <div class="bento-item"><p>ML hasta<br><strong>11x</strong><br>más rápido</p></div>
+            
+            <!-- Textos eliminados porque la imagen img/xdr.png ya los incluye -->
+            <div class="bento-item tall dark-item" style="background-image: url('img/xdr.png'); background-size: cover; background-position: center;">
+            </div>
+            
+            <div class="bento-item wide"><p>Dos tamaños de pantalla</p><h2>16" 14"</h2></div>
+            
+            <div class="bento-item">
+                <img src="img/pixels.png" alt="Píxeles" style="max-width: 50px;">
+                <p>Mueve más de<br>75 millones<br>de píxeles</p>
+            </div>
+        </div>
+
+        <!-- COLUMNA 2 -->
+        <div class="bento-col col-2">
+            <div class="bento-item"><p>CPU hasta<br><strong>3.7x</strong><br>más rápida</p></div>
+            <div class="bento-item"><p>Sistema de sonido<br>de seis altavoces<br>con audio espacial</p></div>
+            
+            <div class="bento-item wide tall">
+                <img src="img/macbook.png" alt="MacBook Pro" style="max-width: 100%; border-radius: 10px;">
+            </div>
+            
+            <div class="bento-item dark-item">
+                <img src="img/m1pro.png" alt="M1 PRO" style="max-width: 80%;">
+            </div>
+            <div class="bento-item dark-item">
+                <img src="img/m1max.png" alt="M1 MAX" style="max-width: 80%;">
+            </div>
+
+            <!-- Texto eliminado porque img/magickeyboard.png ya lo incluye -->
+            <div class="bento-item wide">
+                <img src="img/magickeyboard.png" alt="Magic Keyboard" style="max-width: 100%;">
+            </div>
+        </div>
+
+        <!-- COLUMNA 3 -->
+        <div class="bento-col col-3">
+            <div class="bento-item"><p>Gráficos hasta<br><strong>13x</strong><br>más rápidos</p></div>
+            <div class="bento-item"><p>Arquitectura térmica<br><span style="color:#007aff">avanzada</span></p></div>
+            <div class="bento-item"><p>Hasta<br><strong>8TB</strong><br>de almacenamiento</p></div>
+            <div class="bento-item"><p>Hasta<br><strong>64GB</strong><br>de memoria</p></div>
+            
+            <!-- Celda de ProMotion añadida -->
+            <div class="bento-item">
+                <img src="img/promotion.png" alt="ProMotion" style="max-width: 60px;">
+            </div>
+            
+            <div class="bento-item"><img src="img/1080p.png" alt="1080p" style="max-width: 60px;"><p>Cámara FaceTime HD</p></div>
+            
+            <div class="bento-item wide purple-item"><h2>macOS Monterey</h2></div>
+            
+            <div class="bento-item wide">
+                <img src="img/hdmi.png" alt="Puertos HDMI, Thunderbolt, SDXC" style="max-width: 100%;">
+            </div>
+            <div class="bento-item">
+                <img src="img/studioqualymics.png" alt="Micrófonos calidad estudio" style="max-width: 100%;">
+            </div>
+            
+            <!-- Texto eliminado porque img/magsafe.png ya lo incluye -->
+            <div class="bento-item">
+                <img src="img/magsafe.png" alt="MagSafe" style="max-width: 100%;">
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
